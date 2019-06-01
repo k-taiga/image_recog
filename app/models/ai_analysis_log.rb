@@ -1,0 +1,2 @@
+class AiAnalysisLog < ApplicationRecord
+end
