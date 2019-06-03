@@ -1,6 +1,6 @@
 class ImageRecogController < ApplicationController
   def index
-    @image = AiAnalysisLog.new
+    # @image = AiAnalysisLog.new
 
   end
 
@@ -13,6 +13,7 @@ class ImageRecogController < ApplicationController
       end
     else
       render :index
+    end
   end
 
 
@@ -21,4 +22,5 @@ class ImageRecogController < ApplicationController
   def image_params
     params.require(:ai_analysis_log).permit(:image)
   end
+
 end
