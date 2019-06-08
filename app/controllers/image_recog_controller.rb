@@ -1,6 +1,5 @@
 class ImageRecogController < ApplicationController
   def index
-    # @image = AiAnalysisLog.new
 
   end
 
